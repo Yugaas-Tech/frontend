@@ -32,7 +32,7 @@ const Navbar = () => {
         <li><a href="#">Contact Us</a></li>
         <li className={`dropdown-item ${isDropdownOpen ? 'open' : ''}`}>
           <a href="#" onClick={toggleDropdown}>
-            Products   <FaAngleDown  />
+            Products   <FaAngleDown />
           </a>
         
           
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <div  className="prod-details"key={index}>
                  
                   
-                    <div className='icon'><FontAwesomeIcon icon={faCube} /></div>
+                    <div className='icon'><FontAwesomeIcon icon={faCube} size="12x" /></div>
                     <div className='desc'>
                     <h4>{product.name}</h4>
                   

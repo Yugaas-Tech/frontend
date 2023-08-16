@@ -3,6 +3,7 @@ import './CSS/VisMis.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCube  } from '@fortawesome/free-solid-svg-icons';
 
+
 const VisMis = () => {
     const itemList = [
   {
@@ -48,7 +49,10 @@ const VisMis = () => {
                <p>{item.description}</p>
             </div> 
              <div className='icon'>
+               
                 <FontAwesomeIcon icon={faCube} size="2x" />
+                <div className='divider'></div>
+
             </div>
           </li>
         ))}
