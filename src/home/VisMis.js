@@ -34,24 +34,24 @@ const VisMis = () => {
 
   return (
     <div>
-      <div className="container">
-      <div className="left-column">
+      <div className="container-home">
+      <div className="left-column-home">
         <h2>Our Vision and Mission</h2>
         <p>Guided by compassion and social responsibility, we aspire to be a beacon in offering accessible and affordable high-quality food, products, and services. Our vision is a world free from hunger, fostering spiritual growth and nurturing the well-being of every individual.</p>
       </div>
-      <div className="right-column">
-        <ul className="item-list">
+      <div className="right-column-home">
+        <ul className="item-list-home">
         {itemList.map((item, index) => (
           <li key={index}>
            
-            <div className='desc'>
+            <div className='desc-home'>
                <h6>{item.title}</h6>
                <p>{item.description}</p>
             </div> 
-             <div className='icon'>
+             <div className='icon-home'>
                
                 <FontAwesomeIcon icon={faCube} size="2x" />
-                <div className='divider'></div>
+                <div className='divider-home'></div>
 
             </div>
           </li>

@@ -45,7 +45,7 @@ const Navbar = () => {
                  
                   
                     <div className='icon'><FontAwesomeIcon icon={faCube} size="12x" /></div>
-                    <div className='desc'>
+                    <div className='desc-home'>
                     <h4>{product.name}</h4>
                   
                   

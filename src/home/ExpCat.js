@@ -29,22 +29,22 @@ const ExpCat = () => {
     },
   ];
   return (
-    <div className='container1'>
+    <div className='container1-home'>
       
         <center >
-        <h1 className='head1'>Explore Categories</h1>
-        <p className='desc1'>we believe in providing a holistic experience, encompassing nourishment, spirituality, knowledge, and social impact. Explore our categories below and embark on a journey of enrichment</p>
+        <h1 className='head1-home'>Explore Categories</h1>
+        <p className='desc1-home'>we believe in providing a holistic experience, encompassing nourishment, spirituality, knowledge, and social impact. Explore our categories below and embark on a journey of enrichment</p>
       </center>
-      <center className='list1'>
-      <div className="product-list">
+      <center className='list1-home'>
+      <div className="product-list-home">
       {productList.map((product, index) => (
-        <div key={index} className="product1">
-            <div className='wrap1'> 
-                <div className="icon1">{product.icon}</div>
-                <div className='shopnow'> <button >Shop Now</button></div>
+        <div key={index} className="product1-home">
+            <div className='wrap1-home'> 
+                <div className="icon1-home">{product.icon}</div>
+                <div className='shopnow-home'> <button >Shop Now</button></div>
             </div>
           
-          <div className="details1">
+          <div className="details1-home">
             <h5>{product.name}</h5>
             <p>{product.description}</p> 
           </div>
@@ -53,7 +53,7 @@ const ExpCat = () => {
     </div>
     </center>
     <center>
-    <p className='bot1'> Discover more than products – our categories embody our vision to nourish lives and enrich souls. Join us in creating a world where compassion and sustenance unite.</p>
+    <p className='bot1-home'> Discover more than products – our categories embody our vision to nourish lives and enrich souls. Join us in creating a world where compassion and sustenance unite.</p>
     </center>
     </div>
     

@@ -1,4 +1,4 @@
-.container1{
+.container1-home{
     width: Fixed (1, 440px); 
     height: Fixed (1, 225px); 
     padding: 112px 64px 112px 64px; 
@@ -8,7 +8,7 @@
 }
 
 
-center .head1{
+center .head1-home{
          
         height: 58px;
         font-size: 48px;
@@ -21,7 +21,7 @@ center .head1{
             justify-content: center;
             flex-direction: column;
 }
-center .desc1{
+center .desc1-home{
         width:768px ;
         height: 90px;
         font-family: Inter;
@@ -36,7 +36,7 @@ center .desc1{
             flex-direction: column;
 }
 
-.wrap1 .icon1{
+.wrap1-home .icon1-home{
     flex: 1;
     color: #F3A042;
     width: 48px; 
@@ -44,7 +44,7 @@ center .desc1{
     font-size: 48px;
     float: left;
 }
-.wrap1 .shopnow button{
+.wrap1-home .shopnow-home button{
     flex: 1;
     width: Fixed (121px); 
     height: Fixed (48px); 
@@ -61,7 +61,7 @@ center .desc1{
         margin-top: 10px;
         float:right;
 }
-.details1 h5{
+.details1-home h5{
     width: 405.3333435058594px; 
     height: 34px;
         font-size: 24px;
@@ -72,13 +72,13 @@ center .desc1{
         
         
 }
-.details1{
+.details1-home{
     width: Fill (405.33px); 
     height: Hug (130px); 
     gap: 24px;
     margin-top: 80px;
 }
-.details1 p{
+.details1-home p{
         width: 405.3333435058594px; 
         height: 72px;
         font-size: 16px;
@@ -89,7 +89,7 @@ center .desc1{
         margin-top: 0;
         padding: 0;
 }
-.product-list{
+.product-list-home{
    
         /* Two equal columns in each row */
     width: Fixed (405.33px);
@@ -102,16 +102,19 @@ center .desc1{
 
 }
 
-.wrap1{
+.wrap1-home{
     width: 405.33px;
 
 
 }
-.product1{
-margin: 40px;
+.product1-home{
+margin-top: 40px;
+margin-bottom: 40px;
+margin-left: 20px;
+margin-right: 20px;
 
 }
-.bot1{
+.bot1-home{
         width: 768px; 
         height: 90px;
         font-family: Inter;

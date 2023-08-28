@@ -1,4 +1,4 @@
-.container {
+.container-home{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -8,7 +8,7 @@
     gap: 80px;
     
 }
-.left-column h2{
+.left-column-home h2{
     width: 552px; 
     height: 59px;
     font-family: Inter;
@@ -19,7 +19,7 @@
         text-align: left;
         margin-top: 0;
 }
-.left-column p{
+.left-column-home p{
     width: 616px; 
     height: 180px;
     
@@ -30,16 +30,16 @@
         text-align: left;
 }
 
-.left-column {
+.left-column-home {
     flex: 1;
    
     
 }
-.right-column ul{
+.right-column-home ul{
     list-style: none;
 }
 
-.right-column {
+.right-column-home {
     flex: 1;
     width: Fill (616px); 
     height: Hug (1, 034px); 
@@ -47,13 +47,13 @@
     
     
 }
-.item-list{
+.item-list-home{
     width: Fill (616px); 
     height: Hug (164px); 
     gap: 40px;
     
 }
-.item-list .icon{
+.item-list-home .icon-home{
     float: left;
     flex: 1;
     width: 48px; 
@@ -61,7 +61,7 @@
     padding: 4px 6.0000152587890625px 3.9998397827148438px 6px;
 }
 
-.item-list .desc{
+.item-list-home .desc-home{
     float: right;
     flex: 1;
     width: Hug (48px); 
@@ -70,13 +70,13 @@
     
     
 }
-.divider{
+.divider-home{
     border-left: 2px solid black;
     height: 100px;
     margin-left: 15px;
     margin-top: 7px;
 }
-.desc h6{
+.desc-home h6{
     margin-top: 0;
         font-size: 20px;
         font-weight: 700;
@@ -84,11 +84,18 @@
         width: 528px;
       
     }
-.desc p{
+.desc-home p{
   
 font-size: 16px;
 font-weight: 400;
 width: 528px;
+
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
         
         
 }
