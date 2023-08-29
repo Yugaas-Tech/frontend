@@ -5,6 +5,7 @@ import SectionTwo from './SectionTwo'
 import SectionThree from './SectionThree'
 import SectionFour from './SectionFour'
 import FooterSoIn from './FooterSoIn'
+import '../App.css';
 
 const SocialInitiativesLayout = () => {
   return (

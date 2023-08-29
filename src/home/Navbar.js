@@ -3,7 +3,7 @@ import './CSS/Navbar.css';
 import logo from './CSS/logo.png';
 import { FaAngleDown } from 'react-icons/fa';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCube  } from '@fortawesome/free-solid-svg-icons';
+import { faCircleNotch  } from '@fortawesome/free-solid-svg-icons';
 
 
 const Navbar = () => {
@@ -44,7 +44,7 @@ const Navbar = () => {
                 <div  className="prod-details"key={index}>
                  
                   
-                    <div className='icon'><FontAwesomeIcon icon={faCube} size="12x" /></div>
+                    <div className='icon'><FontAwesomeIcon icon={faCircleNotch} rotation={180} size="12x" /></div>
                     <div className='desc-home'>
                     <h4>{product.name}</h4>
                   

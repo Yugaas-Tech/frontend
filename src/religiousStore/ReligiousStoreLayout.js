@@ -14,6 +14,7 @@ import SliderRj from './ReligiousJewellery/SliderRj'
 import HeaderSd from './SacredDecor/HeaderSd'
 import SliderSd from './SacredDecor/SliderSd'
 import FooterRs from './FooterRs'
+import '../App.css';
 
 const ReligiousStoreLayout = () => {
   return (

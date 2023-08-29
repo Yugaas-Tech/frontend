@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCube  } from '@fortawesome/free-solid-svg-icons';
+import { faCircleNotch  } from '@fortawesome/free-solid-svg-icons';
 
 
 const Empower = () => {
@@ -46,7 +46,7 @@ const Empower = () => {
             </div> 
              <div className='icon'>
                
-                <FontAwesomeIcon icon={faCube} size="2x" />
+                <FontAwesomeIcon  icon={faCircleNotch} rotation={180} size="2x" />
                 <div className='divider'></div>
 
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './CSS/VisMis.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCube  } from '@fortawesome/free-solid-svg-icons';
+import { faCircleNotch  } from '@fortawesome/free-solid-svg-icons';
 
 
 const VisMis = () => {
@@ -50,7 +50,7 @@ const VisMis = () => {
             </div> 
              <div className='icon-home'>
                
-                <FontAwesomeIcon icon={faCube} size="2x" />
+                <FontAwesomeIcon  icon={faCircleNotch} rotation={180} size="2x" />
                 <div className='divider-home'></div>
 
             </div>

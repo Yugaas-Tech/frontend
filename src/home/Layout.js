@@ -4,6 +4,7 @@ import Home from './Home';
 import VisMis from './VisMis';
 import ExpCat from './ExpCat';
 import Social from './Social';
+import Footer from '../aboutUs/Footer';
 
 
 const Layout = () => {
@@ -14,6 +15,7 @@ const Layout = () => {
       <VisMis></VisMis>
       <ExpCat></ExpCat>
       <Social></Social>
+      <Footer></Footer>
     </div>
   )
 }

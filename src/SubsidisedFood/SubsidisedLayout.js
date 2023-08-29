@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../App.css';
 import HeaderSf from './HeaderSf';
 import SocialMissionSf from './SocialMissionSf';
 import EligibilityCriteria from './EligibilityCriteria';
