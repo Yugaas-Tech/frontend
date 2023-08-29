@@ -16,10 +16,10 @@ import SliderSd from './SacredDecor/SliderSd'
 import FooterRs from './FooterRs'
 import '../App.css';
 
-const ReligiousStoreLayout = () => {
+function ReligiousStoreLayout(){
   return (
     <div>
-      <Navbar></Navbar>
+      
       <HeaderRs></HeaderRs>
       <HeaderEd></HeaderEd>
       <SliderEd></SliderEd>
@@ -35,7 +35,7 @@ const ReligiousStoreLayout = () => {
       <SliderSd></SliderSd>
       <FooterRs></FooterRs>
     </div>
-  )
+  );
 }
 
-export default ReligiousStoreLayout
+export default ReligiousStoreLayout;

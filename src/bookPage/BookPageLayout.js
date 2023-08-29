@@ -10,10 +10,10 @@ import AuthorSpot from './AuthorSpot'
 import Recommendations from './recommendations/Recommendations';
 import FooterBook from './FooterBook';
 
-const BookPageLayout = () => {
+function BookPageLayout(){
   return (
     <div>
-      <Navbar></Navbar>
+      
       <HeaderBp></HeaderBp>
       <SpiritualityLayout></SpiritualityLayout>
       <PersonalGrowthLayout></PersonalGrowthLayout>
@@ -23,7 +23,7 @@ const BookPageLayout = () => {
       <Recommendations></Recommendations>
       <FooterBook></FooterBook>
     </div>
-  )
+  );
 }
 
-export default BookPageLayout
+export default BookPageLayout;

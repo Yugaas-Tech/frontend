@@ -7,7 +7,7 @@ import SectionFour from './SectionFour'
 import FooterSoIn from './FooterSoIn'
 import '../App.css';
 
-const SocialInitiativesLayout = () => {
+function SocialInitiativesLayout() {
   return (
     <div>
      
@@ -18,7 +18,7 @@ const SocialInitiativesLayout = () => {
       <SectionFour></SectionFour>
       <FooterSoIn></FooterSoIn>
     </div>
-  )
+  );
 }
 
-export default SocialInitiativesLayout
+export default SocialInitiativesLayout;

@@ -14,10 +14,10 @@ import CorevalueFooter from './CorevalueFooter';
 import Footer from './Footer';
 
 
-const AboutLayout = () => {
+function AboutLayout() {
   return (
     <div>
-      <Navbar></Navbar>
+      
       <Welcome></Welcome>
       <Purpose></Purpose>
       <Commitment></Commitment>
@@ -31,7 +31,7 @@ const AboutLayout = () => {
       <Footer></Footer>
       
     </div>
-  )
+  );
 }
 
-export default AboutLayout
+export default AboutLayout;

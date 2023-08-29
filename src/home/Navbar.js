@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './CSS/Navbar.css'; 
 import logo from './CSS/logo.png';
 import { FaAngleDown } from 'react-icons/fa';
@@ -9,10 +10,10 @@ import { faCircleNotch  } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [products, setProducts] = useState([
-    { name: 'Food Products', description: 'Lorem ipsum dolor sit amet consectetur elit' },
-    { name: 'Religious Store', description: 'Lorem ipsum dolor sit amet consectetur elit' },
-    { name: 'Books', description: 'Lorem ipsum dolor sit amet consectetur elit' },
-    { name: 'Subsidized Food', description: 'Lorem ipsum dolor sit amet consectetur elit' }
+    { name: 'Food Products', description: 'Lorem ipsum dolor sit amet consectetur elit',link:"/foodproducts" },
+    { name: 'Religious Store', description: 'Lorem ipsum dolor sit amet consectetur elit' ,link:"/ReligiousStore"},
+    { name: 'Books', description: 'Lorem ipsum dolor sit amet consectetur elit' ,link:"/Books"},
+    { name: 'Subsidized Food', description: 'Lorem ipsum dolor sit amet consectetur elit' ,link:"/SubsidizedFood"}
   ]);
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -27,8 +28,8 @@ const Navbar = () => {
       </div>
       <div className="menu">
       <ul className="list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About Us</Link></li>
         <li><a href="#">Contact Us</a></li>
         <li className={`dropdown-item ${isDropdownOpen ? 'open' : ''}`}>
           <a href="#" onClick={toggleDropdown}>
@@ -43,13 +44,14 @@ const Navbar = () => {
               {products.map((product, index) => (
                 <div  className="prod-details"key={index}>
                  
-                  
-                    <div className='icon'><FontAwesomeIcon icon={faCircleNotch} rotation={180} size="12x" /></div>
-                    <div className='desc-home'>
-                    <h4>{product.name}</h4>
-                  
+                    <Link to={product.link}>
+                      <div className='prod-name-icon'>
+                    <div className='icon-products'><FontAwesomeIcon icon={faCircleNotch} rotation={180} size="12x" /></div>
+                    
+                    <h4 className='product-name-nav'>{product.name}</h4>
                   
                   </div>
+                  </Link>
                 </div>
               ))}
             </div>

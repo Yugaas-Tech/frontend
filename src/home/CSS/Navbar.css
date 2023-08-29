@@ -28,7 +28,17 @@ width: 66.0389633178711px;
     padding-left: 20px;
     
 }
-
+.prod-name-icon{
+    display: flex;
+}
+.product-name-nav{
+    
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.icon-products{
+    float: left;
+}
 .menu {
     list-style: none;
     display: flex;

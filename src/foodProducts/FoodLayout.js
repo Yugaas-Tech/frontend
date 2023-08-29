@@ -17,10 +17,10 @@ import Sustainable from './Sustainable';
 import FooterNLES from './FooterNLES';
 import '../App.css'
 
-const FoodLayout = () => {
+function FoodLayout(){
   return (
     <div>
-      <Navbar></Navbar>
+      
        <HeaderFood></HeaderFood>
       <Products></Products>
      <Slideshow></Slideshow>
@@ -37,7 +37,7 @@ const FoodLayout = () => {
      <Sustainable></Sustainable>
      <FooterNLES></FooterNLES>
     </div>
-  )
+  );
 }
 
-export default FoodLayout
+export default FoodLayout;

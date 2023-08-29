@@ -4,7 +4,7 @@ import Navbar from '../home/Navbar';
 const HeaderSf = () => {
   return (
     <section className='sf-nav'>
-        <Navbar ></Navbar>
+        
         <div className='bg-image-sf'>
         <div className='header-sf'>
         <h1>Ensuring No One Goes Hungry</h1>

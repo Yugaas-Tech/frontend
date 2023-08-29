@@ -7,17 +7,17 @@ import Social from './Social';
 import Footer from '../aboutUs/Footer';
 
 
-const Layout = () => {
+function Layout () {
   return (
     <div>
-      <Navbar></Navbar>
+      
       <Home></Home>
       <VisMis></VisMis>
       <ExpCat></ExpCat>
       <Social></Social>
       <Footer></Footer>
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;
